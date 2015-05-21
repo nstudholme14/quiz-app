@@ -1,0 +1,75 @@
+/*div {
+	border: 2px solid blue;
+	}*/
+
+#wrapper {
+	background-color: white;
+}
+
+.top-navigation {
+	background-color: #ffffff;
+	position: fixed; 
+	width: 100%; 
+	z-index: 9999; 
+	border: 2px solid blue;
+}
+
+.top-navigation > .content {
+	width: 970px; 
+	height: 100px;
+	margin: 0 auto;
+	padding: 0px 15px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.owl {
+		background-image: url("../owl.jpg");
+		background-position: center bottom;
+		background-repeat: no-repeat; 
+		background-size: 80% 90%; 
+		height:  50.938rem; 
+		overflow: auto;
+		border: 2px solid red;
+	}
+
+
+.owl > .content {
+	width: 450px; 
+	height: 400px;
+	color: white;
+	float: right; 
+	margin-right: 310px;
+	margin-top: 200px;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+.content > h1{
+	font-size: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#answer_holder {
+	display: inline-block;
+	font-size: 20px;
+	padding: 6px; 
+	line-height: 2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#submit {
+	margin-top: 20px; 
+	border-radius: 5px;
+	padding: 5px; 
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.content > h2 {
+	color: #140905;
+	font-size: 45px; 
+	margin-top: 25px;
+	font-weight: bold;
+	margin-left: 10px;
+}

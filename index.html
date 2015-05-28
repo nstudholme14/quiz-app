@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
 </head>
 <body>
 	<div id="wrapper"> 
@@ -21,23 +22,27 @@
 
 			<div class="owl"> 
 				<div class="content">
-					<h1> Question 1: What kind of animal lays the largest eggs? </h1> 
+					<h1 class="quote"> Question 1: What kind of animal lays the largest eggs? </h1> 
 					<br> 
 					<div id="answer_holder"> 
 						<input type="radio" name="option" class="option" value="0"> 
-						<span class="answer"> Ostrich </span>  <br> 
+						<span class="option 1 incorrect"> Ostrich </span>  <br> 
 						<input type="radio" name="option" class="option" value="1"> 
-						<span class="answer"> Emu </span>  <br> 
+						<span class="option 2 incorrect"> Emu </span>  <br> 
 						<input type="radio" name="option" class="option" value="2"> 
-						<span class="answer"> Shark </span> <br> 
+						<span class="option 3" id="correct"> Shark </span> <br> 
 						<input type="radio" name="option" class="option" value="3"> 
-						<span class="answer"> Platypus</span> <br> 	
+						<span class="option 4 incorrect"> Platypus</span> <br> 	
 					<div> 
 					
-					<div id="button_holder"> 
-						<input type="button" id="submit" value="Submit Answer"> 
-					</div> 
+					<div class="feedBack"> 
+						<h4 class="feedBackText" style="display: none;"> Correct! </h4> 
+						<button id="submit" class="submitButton"> Submit Answer </button>
+						<button id="next" class="nextButton" style="display: none;"> Next Question </button>
+						<button id="replay" class="replayButton" style="display: none;"> Play Again! </button>
 
+					</div> 
+				
 				</div> 
 			</div> 
 

@@ -29,19 +29,18 @@
 		background-size: 80% 90%; 
 		height:  50.938rem; 
 		overflow: auto;
-		border: 2px solid red;
 	}
 
 
 .owl > .content {
 	width: 450px; 
-	height: 400px;
+	height: 300px;
 	color: white;
 	float: right; 
-	margin-right: 310px;
+	margin-right: 290px;
 	margin-top: 200px;
 	border: 2px solid white;
-	padding: 10px;
+	padding: 30px;
 }
 
 .content > h1{
@@ -59,6 +58,22 @@
 }
 
 #submit {
+	margin-top: 20px; 
+	border-radius: 5px;
+	padding: 5px; 
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#next {
+	margin-top: 20px; 
+	border-radius: 5px;
+	padding: 5px; 
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#replay {
 	margin-top: 20px; 
 	border-radius: 5px;
 	padding: 5px; 

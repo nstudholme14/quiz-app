@@ -57,6 +57,16 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+#start {
+	margin-top: 20px; 
+	border-radius: 5px;
+	padding: 5px; 
+	text-align: center;
+	width: 130px;
+	font-size: 24px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 #submit {
 	margin-top: 20px; 
 	border-radius: 5px;
@@ -73,18 +83,24 @@
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#replay {
-	margin-top: 20px; 
-	border-radius: 5px;
-	padding: 5px; 
-	font-size: 18px;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
 .content > h2 {
 	color: #140905;
 	font-size: 45px; 
 	margin-top: 25px;
 	font-weight: bold;
 	margin-left: 10px;
+}
+
+.option { 
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#questionCount {
+	text-align: right;
+	font-size: 30px; 
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-bottom: 50px;
 }

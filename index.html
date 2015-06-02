@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/reset.css">
@@ -15,39 +15,44 @@
 			<div class="content"> 
 		
 				<h2> Quizz-ical Creatures </h2> 
-				
+				<h4 id='questionCount'> 0/6 </h4>
 
 			</div> 
 		</nav> 
 
 			<div class="owl"> 
-				<div class="content">
-					<h1 class="quote"> Question 1: What kind of animal lays the largest eggs? </h1> 
+				<div id="content" class="content">
+					<h1 id="title" class="quote"> Welcome to QuizApp!</h1> 
 					<br> 
-					<div id="answer_holder"> 
-						<input type="radio" name="option" class="option" value="0"> 
+					<div id="choices"> 
+						<!-- <input type="radio" name="option" class="option" value="0"> 
 						<span class="option 1 incorrect"> Ostrich </span>  <br> 
 						<input type="radio" name="option" class="option" value="1"> 
 						<span class="option 2 incorrect"> Emu </span>  <br> 
 						<input type="radio" name="option" class="option" value="2"> 
 						<span class="option 3" id="correct"> Shark </span> <br> 
 						<input type="radio" name="option" class="option" value="3"> 
-						<span class="option 4 incorrect"> Platypus</span> <br> 	
-					<div> 
+						<span class="option 4 incorrect"> Platypus</span> <br> --> 	
+					</div> 
 					
-					<div class="feedBack"> 
+					<div id="feedback" class="feedBack"> 
+						<button id="start"> Start! </button>
 						<h4 class="feedBackText" style="display: none;"> Correct! </h4> 
-						<button id="submit" class="submitButton"> Submit Answer </button>
+						<button id="submit" class="submitButton" style="display: none;"> Submit Answer </button>
 						<button id="next" class="nextButton" style="display: none;"> Next Question </button>
-						<button id="replay" class="replayButton" style="display: none;"> Play Again! </button>
+						<button id="replay" class="replayButton" style="display: none;"> Play Again! </button> 
 
 					</div> 
 				
+					<div id="correctIncorrect">
+					</div> 
+
 				</div> 
 			</div> 
 
 	</div> 
 
+<script src="js/script.js"> </script>
 
 </body>
 </html>
